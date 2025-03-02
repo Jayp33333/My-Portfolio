@@ -13,7 +13,7 @@ const TimelineCard = ({title, institution, date, description}) => {
           <h3 className='text-[20px] text-[white] font-medium'>{title}</h3>
           <p className='text-[14px] text-[gray]'>{institution}</p>
           <p className='text-[14px] text-primary font-semibold'>{date}</p>
-          <p className='text-[16px] text-[#9CA3AF]' >{description}</p>
+          {/* <p className='text-[16px] text-[#9CA3AF]' >{description}</p> */}
         </div>
       </div>
     </div>
