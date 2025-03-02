@@ -16,5 +16,15 @@
     "url": "https://github.com/Jayp33333/My-Portfolio/issues"
   },
   "homepage": "https://github.com/Jayp33333/My-Portfolio#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vite": "^2.6.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.0"
+  }
 }
+
+
