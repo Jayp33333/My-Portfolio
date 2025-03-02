@@ -1,0 +1,20 @@
+{
+  "name": "jamito-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && npm install --prefix portfolio && npm run build --prefix portfolio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayp33333/My-Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayp33333/My-Portfolio/issues"
+  },
+  "homepage": "https://github.com/Jayp33333/My-Portfolio#readme",
+  "description": ""
+}
