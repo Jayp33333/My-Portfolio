@@ -38,7 +38,7 @@
   }
 
   .profile-pic{
-    @apply w-[350px] md:w-[370px] h-[350px] md:h-[428px] rotate-[11.75deg] bg-inherit border border-white backdrop-blur-[20px] rounded-[50px]
+    @apply w-[350px] md:w-[370px] h-[350px] md:h-[400px] rotate-[11.75deg] bg-inherit border border-white backdrop-blur-[20px] rounded-[50px]
     transition-transform duration-300 ease-in-out hover:scale-105 hover:rotate-[1deg]
   }
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import PROFILE_PIC from '../assets/images/profile-pic.png';
+import PROFILE_PIC from '../assets/images/my-pic.png';
 import {SOCIAL_MEDIA_ACCOUNT} from '../utils/data.js'
 import StatInfoCard from '../components/StatInfoCard.jsx';
 
@@ -30,7 +30,7 @@ const Hero = () => {
 
         </div>
 
-        <div className='w-[300px] md:w-[370px] h-[350px] md:h-[428px] border border-white bg-inherit rounded-3xl relative order-1 lg:order-2'>
+        <div className='w-[300px] md:w-[370px] h-[350px] md:h-[400px] border border-white bg-inherit rounded-3xl relative order-1 lg:order-2'>
           <img src={PROFILE_PIC} alt="Profile Picture" className='profile-pic' />
         </div>
       </div>
