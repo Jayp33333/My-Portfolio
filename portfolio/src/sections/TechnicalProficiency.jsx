@@ -32,7 +32,7 @@ const TechnicalProficiency = () => {
         activeTab={activeTab}
         onChange={handleTabValueChange}
       />
-       <div className='container mx-auto px-10 lg:px-24 flex flex-wrap gap-4 items-center justify-center'>
+       <div className='container mx-auto px-0 sm:px-10 lg:px-24 flex flex-wrap gap-4 items-center justify-center'>
           {tabData.map((skill, index) => (
             <motion.div key={skill.id}
               initial={{ opacity: 0, y: 20}}

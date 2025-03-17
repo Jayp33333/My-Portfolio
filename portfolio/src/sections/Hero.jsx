@@ -7,7 +7,7 @@ const Hero = () => {
   return (
     <section id='hero' className='container mx-auto px-8 mb-24'>
       <div className='flex flex-col lg:flex-row gap-14 items-center justify-between mt-[80px] '>
-        <div className='order-2 lg:order-1 text-center lg:text-left mt-16 lg:mt-0'>
+        <div className='order-2 lg:order-1 text-center lg:text-left sm:mt-16 lg:mt-0'>
 
           <h2 className='text-2xl lg:text-3xl font-medium text-[white]'>Hi, I'm John Paul Jamito</h2>
 
@@ -15,7 +15,7 @@ const Hero = () => {
           IT Student | PUP Lopez
           </p>
 
-          <h1 className='w-full lg:w-[480px] text-4xl lg:text-5xl font-bold leading-[50px] lg:leading-[60px] mt-3 bg-gradient-primary bg-clip-text text-transparent'>Your Friendly Neighborhood Tech Enthusiast</h1>
+          <h1 className='w-full lg:w-[480px] text-3xl sm:text-4xl lg:text-5xl font-bold sm:leading-[50px] lg:leading-[60px] mt-3 bg-gradient-primary bg-clip-text text-transparent'>Your Friendly Neighborhood Tech Enthusiast</h1>
 
           
           <p className='w-full lg:w-[500px] text-sm lg:text-base mt-2 text-[white]'>
@@ -30,17 +30,20 @@ const Hero = () => {
 
         </div>
 
-        <div className='w-[300px] md:w-[370px] h-[350px] md:h-[400px] border border-white bg-inherit rounded-3xl relative order-1 lg:order-2 '>
+        <div className='mt-12 w-[200px] h-[225px] sm:w-[300px] md:w-[370px] sm:h-[350px] md:h-[400px] border border-white bg-inherit rounded-3xl relative order-1 lg:order-2 '>
           <img src={PROFILE_PIC} alt="Profile Picture" className='profile-pic' />
         </div>
       </div>
 
       {/* Social Media Account */}
-      <div className='flex gap-12 mt-16 md:mt-24 flex-wrap'>
-        {SOCIAL_MEDIA_ACCOUNT.map((item) => (
-          <StatInfoCard key={item.id} label={item.label} icon={item.icon} link={item.link} />
-        ))}
+      <div className='container mx-auto px-8 sm:px-2 mt-16 '>
+        <div className='flex flex-wrap gap-2 lg:gap-12 mt-16 md:mt-24 justify-center items-center text-[10px] sm:text-sm'>
+          {SOCIAL_MEDIA_ACCOUNT.map((item) => (
+            <StatInfoCard key={item.id} label={item.label} icon={item.icon} link={item.link} />
+          ))}
+        </div>
       </div>
+      
     </section>
   )
 }
