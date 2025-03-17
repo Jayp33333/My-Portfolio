@@ -5,7 +5,7 @@ import StatInfoCard from '../components/StatInfoCard.jsx';
 
 const Hero = () => {
   return (
-    <section id='hero' className='container mx-auto px-8'>
+    <section id='hero' className='container mx-auto px-8 mb-24'>
       <div className='flex flex-col lg:flex-row gap-14 items-center justify-between mt-[80px] '>
         <div className='order-2 lg:order-1 text-center lg:text-left mt-16 lg:mt-0'>
 
@@ -23,14 +23,14 @@ const Hero = () => {
         </p>
 
 
-          <div className='flex justify-center lg:justify-start gap-4 md:gap-8 mt-6'>
+          {/* <div className='flex justify-center lg:justify-start gap-4 md:gap-8 mt-6'>
             <button className='flex-1 md:flex-none action-btn-outline btn-scale-anim'>View My Work</button>
             <button className='flex-1 md:flex-none action-btn btn-scale-anim'>Download Resume</button>
-          </div>
+          </div> */}
 
         </div>
 
-        <div className='w-[300px] md:w-[370px] h-[350px] md:h-[400px] border border-white bg-inherit rounded-3xl relative order-1 lg:order-2'>
+        <div className='w-[300px] md:w-[370px] h-[350px] md:h-[400px] border border-white bg-inherit rounded-3xl relative order-1 lg:order-2 '>
           <img src={PROFILE_PIC} alt="Profile Picture" className='profile-pic' />
         </div>
       </div>

@@ -20,10 +20,10 @@ const TechnicalProficiency = () => {
   }
 
   return (
-    <section id='skills' className=' mt-20'>
+    <section id='skills' className=' mt-24 lg:mb-48 sm:mb-36'>
       <div className='container mx-auto p-10'>
-        <div className='w-full lg:w-[60vw] mx-auto'>
-          <h4 className='section-title lg:text-4xl'>Technical Proficiency</h4>
+        <div className='w-full lg:w-[60vw] mx-auto lg:mb-24'>
+          <h4 className='section-title lg:text-4xl'>Tech Stack & Skills</h4>
         </div>
       
 
@@ -42,8 +42,6 @@ const TechnicalProficiency = () => {
               <SkillCard 
                 icon={<skill.icon className='w-6 h-6 text-primary' />}
                 skillName={skill.skill}
-                description={skill.description}
-                progress={skill.progress}
               />
             </motion.div>
           ))}

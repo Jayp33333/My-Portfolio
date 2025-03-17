@@ -5,20 +5,17 @@ import{
   FaNodeJs,
   FaFacebook,
   FaInstagram,
-  FaLinkedin,  
   FaGithub,
 } from "react-icons/fa";
 import { BiLogoJavascript} from "react-icons/bi";
-import { SiExpress, SiMongodb, SiMysql, SiWebpack } from "react-icons/si";
+import { SiExpress, SiMongodb, SiMysql, SiTailwindcss, SiPostman } from "react-icons/si";
 import {
   VscCode, 
-  VscCommentUnresolved,
   VscTerminalPowershell,
 } from "react-icons/vsc";
 
 import { FaGitAlt, FaXTwitter, FaDribbble }  from "react-icons/fa6";
 
-import { MdGroups } from "react-icons/md";
 
 import PROJECT_IMG_1 from "../assets/images/project-1.jpg";
 import PROJECT_IMG_2 from "../assets/images/project-2.jpg";
@@ -62,110 +59,81 @@ export const SKILL_TABS = [
 export const SKILLS = [
   {
     id: "01",
-    icon:FaReact,
-    skill: "React JS",
-    progress: 95,
-    type: "frontend",
-    description:
-      "Create responsive, interactive, and user-friendly web applications using React JS, including components, state management, and routing"
-  }, {
-    id: "02",
     icon:FaHtml5,
     skill: "HTML5",
-    progress: 90,
     type: "frontend",
-    description:
-      "Develop websites and web applications using HTML5, including semantic HTML, responsive design, accessibility, and cross-browser compatibility"
+  },
+  {
+    id: "02",
+    icon:FaCss3,
+    skill: "CSS",
+    type: "frontend",
   },
   {
     id: "03",
-    icon:FaCss3,
-    skill: "CSS",
-    progress: 85,
+    icon:BiLogoJavascript,
+    skill: "JavaScript",
     type: "frontend",
-    description:
-      "Apply styles to HTML5 documents using CSS3, including animations, transitions, and advanced techniques"
   },
   {
     id: "04",
-    icon:BiLogoJavascript,
-    skill: "JavaScript",
-    progress: 90,
+    icon:FaReact,
+    skill: "React JS",
     type: "frontend",
-    description:
-    "Create interactive web applications using JavaScript, including event handling, DOM manipulation, and asynchronous programming"
   },
   {
     id: "05",
-    icon: FaNodeJs,
-    skill: "Node.js",
-    progress: 80,
-    type: "backend",
-    description:
-      "Develop server-side applications using Node.js, including building APIs, handling HTTP requests, and managing databases"
+    icon: SiTailwindcss,
+    skill: "Tailwind CSS",
+    type: "frontend",
   },
   {
     id: "06",
-    icon: SiExpress,
-    skill: "Express.js",
-    progress: 75,
+    icon: FaNodeJs,
+    skill: "Node.js",
     type: "backend",
-    description:
-      "Create web applications using Express.js, including setting up routes, middleware, and error handling"
   },
   {
     id: "07",
-    icon: SiMongodb,
-    skill: "MongoDB",
-    progress: 70,
+    icon: SiExpress,
+    skill: "Express.js",
     type: "backend",
-    description:
-      "Store and retrieve data using MongoDB, including querying, indexing, and connecting to a database"
   },
   {
     id: "08",
-    icon: SiMysql,
-    skill: "MySQL",
-    progress: 65,
+    icon: SiMongodb,
+    skill: "MongoDB",
     type: "backend",
-    description:
-      "Create databases and tables using MySQL, including managing connections, querying, and executing SQL commands"
   },
   {
     id: "09",
-    icon: FaGitAlt,
-    skill: "Git",
-    progress: 80,
-    type: "tools",
-    description:
-      "Version control your projects using Git, including branching, merging, and resolving conflicts"
+    icon: SiMysql,
+    skill: "MySQL",
+    type: "backend",
   },
   {
     id: "10",
-    icon: VscCode,
-    skill: "Visual Studio Code",
-    progress: 95,
+    icon: FaGitAlt,
+    skill: "Git",
     type: "tools",
-    description:
-      "Develop and debug web applications using Visual Studio Code, including syntax highlighting, debugging, and code formatting"
   },
   {
     id: "11",
-    icon: VscCommentUnresolved,
-    skill: "Version Control",
-    progress: 90,
+    icon: FaGithub,
+    skill: "GitHub",
     type: "tools",
-    description:
-      "Collaborate with other developers using version control systems, including Git, to manage code, resolve conflicts, and maintain a clean and organized codebase"
   },
   {
     id: "12",
-    icon: VscTerminalPowershell,
-    skill: "PowerShell",
-    progress: 85,
+    icon: VscCode,
+    skill: "Visual Studio Code",
     type: "tools",
-    description:
-      "Execute PowerShell scripts, automate tasks, and manage system resources using PowerShell"
+  },
+  {
+    id: "13",
+    icon: SiPostman,
+    skill: "Postman",
+    type: "tools",
   },
 ];
 
